@@ -85,7 +85,17 @@ th,td{
 .title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
 .title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
 .year{color: #505050; font-size:0.67em; font-weight: lighter;}
-
+.committee-list ul li {
+    font-size: 1.0em !important;
+    font-style: italic !important;
+    letter-spacing: 0.5px !important;
+    line-height: 1.6 !important;
+    padding: 5px 0 !important;
+}
+.committee-list ul li strong {
+    font-style: normal !important;
+    font-weight: 600 !important;
+}
 /* Navigation Links (Home, Registration, etc) */
 table.navigation{width:800px;}
 td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
