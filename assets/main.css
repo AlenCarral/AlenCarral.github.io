@@ -88,10 +88,11 @@ th,td{
 }
 .grid-container p {
     list-style:none; 
-    margin:24px auto 24px auto; 
+    margin:24px auto 24px 50px; 
     padding:0px;
-    width: auto; /* 让宽度根据父容器调整 */
-    max-width: 500px; /* 设定最大宽度，确保不会过宽 */
+    width: auto; 
+    max-width: 500px; 
+    text-align:left;
 }
 table.navigation{width:800px;}
 td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
